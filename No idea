@@ -1,0 +1,15 @@
+#Libraries
+from datetime import datetime, timedelta
+
+#Load Data in
+connection = PATH
+df = pd.read_csv(connection.csv)
+
+#Study Data frame
+df.head(3)
+df.summary()
+df.info()
+df.str()
+
+
+
